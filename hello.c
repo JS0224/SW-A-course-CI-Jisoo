@@ -1,5 +1,6 @@
 int main()
 {
-    print("Hello world");
+    print("This is Jisoo Kim\n");
+    print("Hello world!");
     return 1;
 }
