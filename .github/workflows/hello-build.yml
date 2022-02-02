@@ -13,10 +13,7 @@ jobs:
 
     steps:
     - name: Checkout sources
-    - uses: actions/checkout@v2
-    
-    - name: configure
-      run: ./configure
-    
+      uses: actions/checkout@v2
+
     - name: Build Hello
       run: make hello
